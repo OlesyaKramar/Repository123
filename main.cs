@@ -30,3 +30,4 @@ while(i<len){
         i++;
     }
 }
+Console.WriteLine("[{0}]", string.Join(", ", new_array));
