@@ -1,3 +1,13 @@
+using System;
+
+string[] array = new string[4];
+array[0]="Hello";
+array[1]="2";
+array[2]="World";
+array[3]=":-)";
+int len = array.Length-1;
+int i = 0;
+int count = 0;
 while(i<len){
     if (array[i].Length<=3){
         count++;
@@ -20,4 +30,3 @@ while(i<len){
         i++;
     }
 }
-Console.WriteLine(new_array);
